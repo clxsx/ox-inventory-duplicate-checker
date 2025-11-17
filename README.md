@@ -33,9 +33,9 @@ Here’s an updated `Usage` section in Markdown including the new feature for cu
 
 1. Place `duplicate_checker.py` anywhere you like.
 2. Run the script:
-   ```bash
+```bash
    python duplicate_checker.py
-````
+```
 
 3. When prompted, paste the full paths for:
    * `items.lua` file
