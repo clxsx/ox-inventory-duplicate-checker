@@ -26,13 +26,28 @@ Scans your `items.lua` file and finds duplicate item IDs that can cause server e
 pip install -r requirements.txt
 ```
 
+Here’s an updated `Usage` section in Markdown including the new feature for custom paths:
+
+````markdown
 ## Usage
-1. Put `duplicate_checker.py` in same folder as `items.lua`
-2. Run: `python duplicate_checker.py`
-3. Use keyboard shortcuts:
-   - `R` - Refresh scan
-   - `C` - Copy selected duplicate
-   - `Q` - Quit
+
+1. Place `duplicate_checker.py` anywhere you like.
+2. Run the script:
+   ```bash
+   python duplicate_checker.py
+````
+
+3. When prompted, paste the full paths for:
+   * `items.lua` file
+   * Images folder
+4. Choose an option:
+   * `1` - Find duplicate images
+   * `2` - Find missing images
+5. Use keyboard shortcuts in the app:
+   * `R` - Refresh scan
+   * `C` - Copy selected item/image to clipboard
+   * `Q` - Quit the application
+
 
 ## What it checks
 - Finds duplicate item IDs like `['lighter']` in your `items.lua`
